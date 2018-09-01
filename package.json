@@ -7,16 +7,13 @@
     "clear": "rimraf bin",
     "build": "npm run clear && ./node_modules/.bin/babel --out-dir bin src",
     "build:watch": "npm run build -- --watch",
-    "build:umd": "./node_modules/.bin/webpack --output-filename btc-converter-cli.umd.js",
-    "build:umd:min": "./node_modules/.bin/webpack --output-filename btc-converter-cli.umd.min.js -p",
-    "build:all": "npm run build && npm run build:umd && npm run build:umd:min",
     "lint": "./node_modules/.bin/eslint src/*.js",
     "prepush": "npm run lint",
     "test": "./node_modules/.bin/mocha tests/**/*.spec.js --require babel-register --reporter nyan",
     "test:tdd": "npm run test -- --watch",
     "test:coverage": "nyc npm test",
     "coveralls": "npm run test:coverage && nyc report --reporter=text-lcov | coveralls",
-    "prepublish": "npm run build:all"
+    "prepublish": "npm run build"
   },
   "preferGlobal": true,
   "bin": {
@@ -70,5 +67,8 @@
     "sinon-chai": "^3.2.0",
     "sinon-stub-promise": "^4.0.0",
     "webpack": "^2.4.1"
+  },
+  "dependencies": {
+    "commander": "^2.17.1"
   }
 }
