@@ -1,8 +1,10 @@
 # Bitcoin Converter CLI
 
+[![Build Status](https://travis-ci.org/gabriel-hahn/btc-converter-cli.svg?branch=master)](https://travis-ci.org/gabriel-hahn/btc-converter-cli) [![Coverage Status](https://coveralls.io/repos/github/gabriel-hahn/btc-converter-cli/badge.svg?branch=master)](https://coveralls.io/github/gabriel-hahn/btc-converter-cli?branch=master)
+
 > A CLI to convert Bitcoin to any currency provided.
 
-[![Build Status](https://travis-ci.org/gabriel-hahn/btc-converter-cli.svg?branch=master)](https://travis-ci.org/gabriel-hahn/btc-converter-cli) [![Coverage Status](https://coveralls.io/repos/github/gabriel-hahn/btc-converter-cli/badge.svg?branch=master)](https://coveralls.io/github/gabriel-hahn/btc-converter-cli?branch=master)
+![Example CLI running](img/example.gif)
 
 ### Installing
 
