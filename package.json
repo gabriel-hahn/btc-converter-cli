@@ -70,7 +70,9 @@
     "webpack": "^2.4.1"
   },
   "dependencies": {
+    "chalk": "^2.0.1",
     "commander": "^2.10.0",
+    "ora": "^3.0.0",
     "request": "^2.81.0"
   }
 }
