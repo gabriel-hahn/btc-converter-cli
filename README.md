@@ -4,7 +4,7 @@
 
 > A CLI to convert Bitcoin to any currency provided.
 
-![Example CLI running](img/example.gif)
+![Example CLI running](https://media.giphy.com/media/1AfITEPiXjgefrIh2O/source.gif)
 
 ### Installing
 
