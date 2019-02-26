@@ -1,5 +1,6 @@
 # Bitcoin Converter CLI
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4b09a45b61fd4538916223446a7b9700)](https://app.codacy.com/app/gabriel_hahn/btc-converter-cli?utm_source=github.com&utm_medium=referral&utm_content=gabriel-hahn/btc-converter-cli&utm_campaign=Badge_Grade_Dashboard)
 [![Build Status](https://travis-ci.org/gabriel-hahn/btc-converter-cli.svg?branch=master)](https://travis-ci.org/gabriel-hahn/btc-converter-cli) [![Coverage Status](https://coveralls.io/repos/github/gabriel-hahn/btc-converter-cli/badge.svg?branch=master)](https://coveralls.io/github/gabriel-hahn/btc-converter-cli?branch=master) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/gabriel-hahn/btc-converter-cli/pulls) [![Bugs](https://img.shields.io/github/issues/gabriel-hahn/btc-converter-cli/bug.svg)](https://github.com/gabriel-hahn/btc-converter-cli/issues?utf8=?&q=is%3Aissue+is%3Aopen+label%3Abug) [![The MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
 > A CLI to convert Bitcoin to any currency provided.
